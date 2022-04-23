@@ -1,0 +1,7 @@
+import:
+  -  /home/ryuvi/.config/alacritty/dracula.yml
+
+window:
+  padding:
+    x: 5
+    y: 5

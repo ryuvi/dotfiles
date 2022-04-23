@@ -1,0 +1,73 @@
+# I3WM KEYBOARD BINDS
+
+[M]+[RET]: alacritty
+
+[M]+q: kill
+
+[M]+d: dmenu_run
+
+[M]+[SHIFT]+c: reload
+
+[M]+[SHIFT]+r: restart
+
+[M]+[SHIFT]+e: exit i3
+
+---
+
+[M]+j,k,l,ç             focus left,down,up,right
+
+[M]+[SHIFT]+j,k,l,ç             move left,down,up,right
+
+---
+
+[M]+Left,Down,Up,Right  focus left,down,up,right
+
+[M]+[SHIFT]+Left,Down,Up,Right          move left,down,up,right
+
+---
+
+[M]+h,v                   split h,v
+
+[M]+f                   fullscreen toggle
+
+[M]+s                   layout stacking
+
+[M]+w                   layout tabbed
+
+[M]+e                   layout toggle split
+
+[M]+[SHIFT]+[SPC]         floating toggle
+
+[M]+[SPC]               focus mode_toggle
+
+[M]+a                   focus parent
+
+[M]+d                   focus child
+
+---
+
+[M]+[0-9]                   workspace [0-9]
+
+[M]+[SHIFT]+[0-9]             move to workspace 0-9
+
+---
+
+j,Left                       resize shrink width 10 px or 10 ppt
+
+ç,Right                       resize grow width 10 px or 10 ppt
+
+l,Up                       resize shrink height 10 px or 10 ppt
+
+k,Down                       resize grow height 10 px or 10 ppt
+
+---
+
+[RET],[ESC]                   mode "default"
+
+[M]+r                   mode "resize" or "default"
+
+---
+
+[M]+d                     dmenu-run
+
+[CTRL]+[SPC]              rofi -show drun
