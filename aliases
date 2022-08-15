@@ -1,0 +1,21 @@
+alias del="rm -rf"
+alias update="source $HOME/.zshrc"
+alias compose="docker-compose"
+alias v="nvim"
+alias phpws="cd /srv/http"
+alias valias="nvim $HOME/Bin/aliases"
+alias vzsh="nvim $HOME/.zshrc"
+alias laranew='f() { laravel new $1 --git --branch="main"; unset -f f; }; f'
+alias saiy="sudo apt install -y"
+alias sauy="sudo apt upgrade -y"
+alias psy="sudo pacman -S --noconfirm"
+alias psyu="sudo pacman -Syyuu --noconfirm"
+alias pss="sudo pacman -Ss"
+alias test-net='ping www.google.com'
+alias take_file='wget -c --content-disposition'
+alias qemu='qemu-system-x86_64'
+alias vmake='nvim Makefile'
+alias addignore='f() { echo "$@" >> .gitignore; unset -f f; }; f'
+alias python='python3'
+alias pip='pip3'
+alias envstart='source venv/bin/activate'

@@ -5,3 +5,11 @@ window:
   padding:
     x: 5
     y: 5
+
+  opacity: 0.9
+
+cursor:
+  style:
+    shape: Beam
+  blink_interval: 500
+  thickness: 0.15
