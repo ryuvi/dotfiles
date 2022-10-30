@@ -1,0 +1,61 @@
+{
+	"name": "love",
+	"description": "A color scheme for you to love. ♡",
+	"version": "0.1.4",
+	"author": "Holllo <helllo@holllo.cc>",
+	"homepage": "https://love.holllo.cc",
+	"repository": "https://git.holllo.cc/Holllo/love",
+	"license": "MIT",
+	"scripts": {
+		"package": "vsce package --baseImagesUrl='https://love.holllo.cc/images/vscode/'"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"vsce": "^1.77.0"
+	},
+	"displayName": "Love Theme",
+	"publisher": "Holllo",
+	"icon": "love-mark-square.png",
+	"galleryBanner": {
+		"color": "#2A2041",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"color scheme",
+		"dark",
+		"light",
+		"love",
+		"theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Love Dark",
+				"uiTheme": "vs-dark",
+				"path": "themes/love-dark.color-theme.json"
+			},
+			{
+				"label": "Love Light",
+				"uiTheme": "vs",
+				"path": "themes/love-light.color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "bf49f80d-326a-4fe7-9819-9baf96e29508",
+		"publisherId": "2ce09e6d-7182-430d-918b-f31ed761695c",
+		"publisherDisplayName": "Holllo",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1664373111222
+	}
+}

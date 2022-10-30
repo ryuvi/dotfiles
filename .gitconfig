@@ -1,0 +1,9 @@
+[user]
+	email = vicenters10@gmail.com
+	name = ryuvi
+
+[init]
+	defaultBranch = main
+
+[core]
+	edit = nvim

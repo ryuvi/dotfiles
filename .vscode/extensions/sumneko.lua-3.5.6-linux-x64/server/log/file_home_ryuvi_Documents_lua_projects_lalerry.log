@@ -1,0 +1,496 @@
+[11:55:57.979][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:65]: Lua Lsp startup, root: 	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server
+[11:55:57.979][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:66]: ROOT:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server
+[11:55:57.979][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:67]: LOGPATH:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/log
+[11:55:57.979][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:68]: METAPATH:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta
+[11:55:57.979][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:69]: VERSION:	3.5.6
+[11:55:58.053][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.461 MB
+        # 00 : 1.461 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:55:58.074][info] [#0:script/language.lua:137]: VSC language: en-us
+[11:55:58.074][info] [#0:script/language.lua:138]: LS  language: en-us
+[11:55:58.074][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:55:58.074][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/log/file_home_ryuvi_Documents_lua_projects_lalerry.log
+[11:55:58.075][info] [#0:script/workspace/workspace.lua:51]: Workspace create: 	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:55:58.280][info] [#0:script/provider/provider.lua:41]: Load config from client	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:55:58.281][info] [#0:script/provider/provider.lua:42]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      groupFileStatus = {},
+      groupSeverity = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      neededFileStatus = {},
+      severity = {},
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = false,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      builtin = {},
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = true
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    typeFormat = {
+      config = {}
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  },
+  ["editor.acceptSuggestionOnEnter"] = "on",
+  ["editor.semanticHighlighting.enabled"] = "configuredByTheme",
+  ["files.associations"] = {},
+  ["files.exclude"] = {
+    ["**/.DS_Store"] = true,
+    ["**/.git"] = true,
+    ["**/.hg"] = true,
+    ["**/.svn"] = true,
+    ["**/CVS"] = true,
+    ["**/Thumbs.db"] = true
+  }
+}
+[11:55:58.282][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[11:55:58.383][info] [#0:script/provider/provider.lua:56]: Load config from client	fallback
+[11:55:58.385][info] [#0:script/provider/provider.lua:57]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      groupFileStatus = {},
+      groupSeverity = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      neededFileStatus = {},
+      severity = {},
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = false,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      builtin = {},
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = true
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    typeFormat = {
+      config = {}
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  },
+  ["editor.acceptSuggestionOnEnter"] = "on",
+  ["editor.semanticHighlighting.enabled"] = "configuredByTheme",
+  ["files.associations"] = {},
+  ["files.exclude"] = {
+    ["**/.DS_Store"] = true,
+    ["**/.git"] = true,
+    ["**/.hg"] = true,
+    ["**/.svn"] = true,
+    ["**/CVS"] = true,
+    ["**/Thumbs.db"] = true
+  }
+}
+[11:55:58.794][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:55:58.822][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/Documents/lua_projects/lalerry
+[11:55:58.822][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/Documents/lua_projects/lalerry
+[11:55:58.822][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[11:55:58.862][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:55:58.864][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:55:58.865][info] [#0:script/workspace/workspace.lua:305]: Preload start:	<fallback>
+[11:55:58.868][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:55:58.870][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:55:59.681][info] [#0:script/workspace/workspace.lua:348]: Found 11 files at:	<fallback>
+[11:55:59.682][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	<fallback>
+[11:55:59.682][info] [#0:script/workspace/workspace.lua:348]: Found 12 files at:	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:55:59.682][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:56:01.068][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.121] sec: <fallback>
+[11:56:01.068][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: <fallback>
+[11:56:01.068][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	<fallback>
+[11:56:01.068][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	<fallback>
+[11:56:01.071][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.123] sec: file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:56:01.071][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:56:01.071][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:56:01.071][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/ryuvi/Documents/lua_projects/lalerry
+[11:56:01.101][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[12]
+[11:56:01.101][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/Documents/lua_projects/lalerry], files count:[12]
+[11:56:01.132][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.031] sec.
+[11:56:01.133][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/Documents/lua_projects/lalerry] finished, takes [0.031] sec.
+[12:05:59.178][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.643 MB
+        # 00 : 6.286 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     14
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      14
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:16:00.282][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.448 MB
+        # 00 : 7.091 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     14
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      14
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:26:00.409][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 8.252 MB
+        # 00 : 7.895 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     14
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      14
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:36:01.536][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 9.056 MB
+        # 00 : 8.699 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     14
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      14
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:46:01.643][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 9.858 MB
+        # 00 : 9.501 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     14
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      14
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:56:01.767][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 10.661 MB
+        # 00 : 10.304 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     14
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      14
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:06:01.884][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 5.839 MB
+        # 00 : 5.482 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:16:02.003][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 5.611 MB
+        # 00 : 5.253 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:26:02.130][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 5.899 MB
+        # 00 : 5.541 MB
+        # 01 : 0.043 MB
+        # 02 : 0.172 MB
+        # 03 : 0.100 MB
+        # 04 : 0.043 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:32:16.086][info] [#0:script/provider/provider.lua:167]: Server shutdown.
+[13:32:16.187][warn] [#0:script/pub/report.lua:25]: Load proto error:	Disconnected!

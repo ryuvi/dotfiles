@@ -1,0 +1,1417 @@
+[11:38:01.852][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:65]: Lua Lsp startup, root: 	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server
+[11:38:01.852][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:66]: ROOT:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server
+[11:38:01.852][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:67]: LOGPATH:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/log
+[11:38:01.852][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:68]: METAPATH:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta
+[11:38:01.876][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:69]: VERSION:	3.5.6
+[11:38:02.682][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.461 MB
+        # 00 : 1.461 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:38:02.711][info] [#0:script/language.lua:137]: VSC language: en-us
+[11:38:02.711][info] [#0:script/language.lua:138]: LS  language: en-us
+[11:38:02.711][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/ryuvi/.config/nvim
+[11:38:02.711][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/log/file_home_ryuvi_.config_nvim.log
+[11:38:02.711][info] [#0:script/workspace/workspace.lua:51]: Workspace create: 	file:///home/ryuvi/.config/nvim
+[11:38:04.834][info] [#0:script/provider/provider.lua:41]: Load config from client	file:///home/ryuvi/.config/nvim
+[11:38:04.835][info] [#0:script/provider/provider.lua:42]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      groupFileStatus = {},
+      groupSeverity = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      neededFileStatus = {},
+      severity = {},
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = false,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      builtin = {},
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = true
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    typeFormat = {
+      config = {}
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  },
+  ["editor.acceptSuggestionOnEnter"] = "on",
+  ["editor.semanticHighlighting.enabled"] = "configuredByTheme",
+  ["files.associations"] = {},
+  ["files.exclude"] = {
+    ["**/.DS_Store"] = true,
+    ["**/.git"] = true,
+    ["**/.hg"] = true,
+    ["**/.svn"] = true,
+    ["**/CVS"] = true,
+    ["**/Thumbs.db"] = true
+  }
+}
+[11:38:04.866][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[11:38:04.981][info] [#0:script/provider/provider.lua:56]: Load config from client	fallback
+[11:38:04.981][info] [#0:script/provider/provider.lua:57]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      groupFileStatus = {},
+      groupSeverity = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      neededFileStatus = {},
+      severity = {},
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = false,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      builtin = {},
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = true
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    typeFormat = {
+      config = {}
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  },
+  ["editor.acceptSuggestionOnEnter"] = "on",
+  ["editor.semanticHighlighting.enabled"] = "configuredByTheme",
+  ["files.associations"] = {},
+  ["files.exclude"] = {
+    ["**/.DS_Store"] = true,
+    ["**/.git"] = true,
+    ["**/.hg"] = true,
+    ["**/.svn"] = true,
+    ["**/CVS"] = true,
+    ["**/Thumbs.db"] = true
+  }
+}
+[11:38:05.484][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/.config/nvim
+[11:38:05.525][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/.config/nvim
+[11:38:05.526][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/.config/nvim
+[11:38:05.526][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[11:38:05.558][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/ryuvi/.config/nvim
+[11:38:05.560][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/ryuvi/.config/nvim
+[11:38:05.561][info] [#0:script/workspace/workspace.lua:305]: Preload start:	<fallback>
+[11:38:05.563][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:38:05.565][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:38:06.710][info] [#0:script/workspace/workspace.lua:348]: Found 11 files at:	<fallback>
+[11:38:06.711][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	<fallback>
+[11:38:06.711][info] [#0:script/workspace/workspace.lua:348]: Found 13 files at:	file:///home/ryuvi/.config/nvim
+[11:38:06.711][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim
+[11:38:06.842][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.113] sec: file:///home/ryuvi/.config/nvim
+[11:38:06.842][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim
+[11:38:06.842][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim
+[11:38:06.842][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/ryuvi/.config/nvim
+[11:38:06.994][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.157] sec: <fallback>
+[11:38:06.995][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: <fallback>
+[11:38:06.995][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	<fallback>
+[11:38:06.995][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	<fallback>
+[11:38:08.711][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[13]
+[11:38:08.712][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:38:08.800][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.067] sec.
+[11:38:08.800][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.066] sec.
+[11:38:23.037][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:38:23.070][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.033] sec.
+[11:38:30.715][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:38:30.738][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.022] sec.
+[11:39:48.727][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:39:48.763][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.035] sec.
+[11:40:23.670][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:23.757][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.082] sec.
+[11:40:25.592][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:25.758][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:25.759][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:25.892][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:25.926][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.033] sec.
+[11:40:27.084][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:27.128][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.042] sec.
+[11:40:27.657][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:27.676][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.018] sec.
+[11:40:28.281][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:28.281][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:28.302][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.021] sec.
+[11:40:31.732][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:31.733][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:40:31.753][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.020] sec.
+[11:41:10.738][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:41:10.741][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:41:10.784][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.043] sec.
+[11:41:50.745][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:41:50.780][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.035] sec.
+[11:42:44.855][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.lua
+[11:42:44.856][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.lua
+[11:42:44.857][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.001] sec: file:///home/ryuvi/.config/nvim/init.lua
+[11:42:44.857][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.lua
+[11:42:44.858][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.lua
+[11:42:48.754][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[13]
+[11:42:48.774][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.020] sec.
+[11:45:15.775][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/ryuvi/.config/nvim/init.lua
+[11:45:19.773][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[12]
+[11:45:19.795][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.022] sec.
+[11:45:24.780][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:45:24.780][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:45:24.780][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:45:24.780][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:45:24.780][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:45:52.783][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/ryuvi/.config/nvim/plugin/packer_compiled.lua
+[11:45:56.780][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[11]
+[11:45:56.781][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.001] sec.
+[11:46:11.798][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:46:11.798][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:46:11.798][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:46:11.798][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:46:11.799][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:46:14.784][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins
+[11:46:14.785][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins
+[11:46:14.785][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins
+[11:46:14.785][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins
+[11:46:14.785][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins
+[11:47:12.797][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic
+[11:47:12.797][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic
+[11:47:12.797][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic
+[11:47:12.797][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic
+[11:47:12.797][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic
+[11:47:12.798][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:47:12.798][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:47:12.798][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:47:12.798][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:47:12.798][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:47:12.798][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim
+[11:47:12.798][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim
+[11:47:12.798][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim
+[11:47:12.798][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim
+[11:47:12.798][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim
+[11:47:13.837][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/test
+[11:47:13.838][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:13.838][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:13.838][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:13.838][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:13.838][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:13.839][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/screenshot.png
+[11:47:13.839][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/doc
+[11:47:13.839][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/remotes
+[11:47:13.839][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/remotes
+[11:47:13.839][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/remotes
+[11:47:13.839][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/remotes
+[11:47:13.839][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/remotes
+[11:47:13.839][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/config
+[11:47:13.839][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/config
+[11:47:13.839][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/config
+[11:47:13.839][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/config
+[11:47:13.839][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/config
+[11:47:13.839][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:13.839][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:13.839][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:13.839][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:13.840][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:13.840][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/autoload
+[11:47:13.840][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:47:13.840][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:47:13.840][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:47:13.840][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:47:13.840][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:47:13.840][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:47:13.840][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/LICENSE
+[11:47:13.840][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/shallow
+[11:47:13.841][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/shallow
+[11:47:13.841][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/shallow
+[11:47:13.841][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/shallow
+[11:47:13.841][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/shallow
+[11:47:13.841][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/INSTALL.md
+[11:47:13.841][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/after
+[11:47:13.841][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/README.md
+[11:47:13.841][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/logs
+[11:47:13.842][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/logs
+[11:47:13.842][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/logs
+[11:47:13.842][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/logs
+[11:47:13.842][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/logs
+[11:47:13.842][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.gitignore
+[11:47:13.842][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.pack
+[11:47:13.842][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.pack
+[11:47:13.842][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.pack
+[11:47:13.842][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.pack
+[11:47:13.842][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.pack
+[11:47:13.842][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.github
+[11:47:13.843][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.idx
+[11:47:13.843][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.idx
+[11:47:13.843][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.idx
+[11:47:13.843][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.idx
+[11:47:13.843][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.idx
+[11:47:13.843][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/packed-refs
+[11:47:13.843][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/packed-refs
+[11:47:13.843][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/packed-refs
+[11:47:13.843][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/packed-refs
+[11:47:13.843][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/packed-refs
+[11:47:13.844][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:47:13.844][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/tmp_pack_ORlvxJ
+[11:47:13.844][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/tmp_pack_ORlvxJ
+[11:47:13.844][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/tmp_pack_ORlvxJ
+[11:47:13.844][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/tmp_pack_ORlvxJ
+[11:47:13.844][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/tmp_pack_ORlvxJ
+[11:47:13.844][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:47:13.844][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:47:13.844][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:47:13.844][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:47:13.844][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:47:13.844][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:13.844][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:13.844][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:13.844][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:13.844][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:13.845][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:13.845][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:13.845][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:13.845][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:13.845][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:13.845][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads/master
+[11:47:13.845][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads/master
+[11:47:13.845][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads/master
+[11:47:13.845][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads/master
+[11:47:13.845][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads/master
+[11:47:13.845][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.idx
+[11:47:13.845][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.idx
+[11:47:13.845][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.idx
+[11:47:13.845][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.idx
+[11:47:13.845][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack/pack-4a6f066210ffd8255e05d8982950bb9568267904.idx
+[11:47:13.845][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:47:13.846][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:47:13.846][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:47:13.846][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:47:13.846][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:47:13.846][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:13.846][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:13.846][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:13.846][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:13.846][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:13.846][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/plugin
+[11:47:13.846][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:47:13.846][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:47:13.846][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:47:13.846][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:47:13.846][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:47:13.848][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/heads/master
+[11:47:13.848][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/heads/master
+[11:47:13.849][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/heads/master
+[11:47:13.849][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/heads/master
+[11:47:13.849][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/refs/heads/master
+[11:47:13.849][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow.lock
+[11:47:13.849][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow.lock
+[11:47:13.849][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow.lock
+[11:47:13.849][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow.lock
+[11:47:13.849][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow.lock
+[11:47:13.849][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.github
+[11:47:13.850][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc
+[11:47:13.850][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/autoload
+[11:47:13.850][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.pack
+[11:47:13.850][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.pack
+[11:47:13.850][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.pack
+[11:47:13.850][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.pack
+[11:47:13.850][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/objects/pack/pack-4e5e43fc0043cf07ed8a51f7430fafc90414d92b.pack
+[11:47:13.851][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/LICENSE
+[11:47:13.851][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:47:13.851][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:47:13.851][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:47:13.851][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:47:13.851][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:47:13.851][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.gitignore
+[11:47:13.851][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/colorscheme.md
+[11:47:13.851][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/screenshot.png
+[11:47:13.851][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/screenshot.png
+[11:47:13.851][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/screenshot.png
+[11:47:13.851][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/screenshot.png
+[11:47:13.851][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/doc
+[11:47:13.851][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/doc
+[11:47:13.851][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/doc
+[11:47:13.851][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/doc
+[11:47:13.852][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:47:13.852][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:47:13.852][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:47:13.852][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:47:13.852][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/LICENSE
+[11:47:13.852][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/LICENSE
+[11:47:13.852][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/LICENSE
+[11:47:13.852][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/LICENSE
+[11:47:13.852][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/INSTALL.md
+[11:47:13.852][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/INSTALL.md
+[11:47:13.852][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/INSTALL.md
+[11:47:13.852][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/INSTALL.md
+[11:47:13.853][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/README.md
+[11:47:13.853][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/README.md
+[11:47:13.853][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/README.md
+[11:47:13.853][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/README.md
+[11:47:13.853][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.gitignore
+[11:47:13.853][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.gitignore
+[11:47:13.853][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.gitignore
+[11:47:13.853][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.gitignore
+[11:47:13.876][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/.config/nvim
+[11:47:13.879][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/.config/nvim
+[11:47:13.879][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/.config/nvim
+[11:47:13.879][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:47:13.879][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:47:13.879][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:47:13.879][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:47:13.879][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/plugin
+[11:47:13.879][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/plugin
+[11:47:13.879][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/plugin
+[11:47:13.879][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/plugin
+[11:47:13.879][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.github
+[11:47:13.879][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.github
+[11:47:13.879][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.github
+[11:47:13.879][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.github
+[11:47:13.879][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc
+[11:47:13.879][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc
+[11:47:13.879][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc
+[11:47:13.879][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc
+[11:47:13.880][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/LICENSE
+[11:47:13.880][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/LICENSE
+[11:47:13.880][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/LICENSE
+[11:47:13.880][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/LICENSE
+[11:47:13.880][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.gitignore
+[11:47:13.880][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.gitignore
+[11:47:13.880][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.gitignore
+[11:47:13.880][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.gitignore
+[11:47:13.894][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/.config/nvim
+[11:47:13.896][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/.config/nvim
+[11:47:13.896][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/.config/nvim
+[11:47:13.896][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/colorscheme.md
+[11:47:13.896][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/colorscheme.md
+[11:47:13.896][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/colorscheme.md
+[11:47:13.896][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/colorscheme.md
+[11:47:13.897][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.github
+[11:47:13.897][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.github
+[11:47:13.897][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.github
+[11:47:13.897][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.github
+[11:47:13.897][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/autoload
+[11:47:13.897][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/autoload
+[11:47:13.897][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/autoload
+[11:47:13.897][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/autoload
+[11:47:13.905][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/test
+[11:47:13.906][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/test
+[11:47:13.906][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/test
+[11:47:13.906][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/test
+[11:47:13.909][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/after
+[11:47:13.909][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/after
+[11:47:13.909][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/after
+[11:47:13.909][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/after
+[11:47:13.914][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/autoload
+[11:47:13.914][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/autoload
+[11:47:13.914][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/autoload
+[11:47:13.914][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/autoload
+[11:47:13.917][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/ryuvi/.config/nvim
+[11:47:13.921][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/ryuvi/.config/nvim
+[11:47:13.940][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:47:15.791][info] [#0:script/workspace/workspace.lua:348]: Found 11 files at:	file:///home/ryuvi/.config/nvim
+[11:47:15.791][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim
+[11:47:15.795][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.003] sec: file:///home/ryuvi/.config/nvim
+[11:47:15.795][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim
+[11:47:15.795][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim
+[11:47:15.795][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/ryuvi/.config/nvim
+[11:47:15.796][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[11]
+[11:47:15.796][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.001] sec.
+[11:47:26.875][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/_assets
+[11:47:26.880][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.gitignore
+[11:47:26.882][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/packed-refs
+[11:47:26.882][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/packed-refs
+[11:47:26.882][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/packed-refs
+[11:47:26.882][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/packed-refs
+[11:47:26.882][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/packed-refs
+[11:47:26.882][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/heads/master
+[11:47:26.882][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/heads/master
+[11:47:26.883][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/heads/master
+[11:47:26.883][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/heads/master
+[11:47:26.883][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/heads/master
+[11:47:26.883][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow
+[11:47:26.883][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow
+[11:47:26.884][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow
+[11:47:26.884][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow
+[11:47:26.884][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/shallow
+[11:47:26.884][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/index
+[11:47:26.884][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/index
+[11:47:26.884][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/index
+[11:47:26.884][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/index
+[11:47:26.884][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/index
+[11:47:26.885][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/LICENCE
+[11:47:26.885][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:26.885][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:26.885][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:26.885][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:26.885][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:47:26.886][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/syntax_checkers
+[11:47:26.891][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.pack
+[11:47:26.891][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.pack
+[11:47:26.891][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.pack
+[11:47:26.891][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.pack
+[11:47:26.891][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.pack
+[11:47:26.891][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc/tags
+[11:47:26.892][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:26.892][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:26.892][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:26.892][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:26.892][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:47:26.892][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:26.892][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:26.892][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:26.892][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:26.892][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/HEAD
+[11:47:26.892][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/logs
+[11:47:26.892][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/logs
+[11:47:26.892][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/logs
+[11:47:26.892][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/logs
+[11:47:26.893][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/logs
+[11:47:26.893][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:26.893][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:26.893][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:26.893][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:26.893][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/.git/index
+[11:47:26.893][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/README.markdown
+[11:47:26.894][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/doc/tags
+[11:47:26.895][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/doc
+[11:47:26.896][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.idx
+[11:47:26.896][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.idx
+[11:47:26.896][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.idx
+[11:47:26.896][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.idx
+[11:47:26.896][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/objects/pack/pack-d97fa3b368dcea96197f9f86c65fbd54f59a3dbb.idx
+[11:47:26.897][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/HEAD
+[11:47:26.897][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/HEAD
+[11:47:26.897][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/HEAD
+[11:47:26.897][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/HEAD
+[11:47:26.897][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/HEAD
+[11:47:26.897][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:26.897][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:26.897][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:26.897][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:26.897][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/config
+[11:47:26.898][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/CONTRIBUTING.md
+[11:47:26.898][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/plugin
+[11:47:26.900][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/autoload
+[11:47:26.902][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/remotes
+[11:47:26.902][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/remotes
+[11:47:26.902][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/remotes
+[11:47:26.902][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/remotes
+[11:47:26.902][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.git/refs/remotes
+[11:47:26.902][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/_assets
+[11:47:26.902][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/_assets
+[11:47:26.902][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/_assets
+[11:47:26.902][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/_assets
+[11:47:26.902][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.gitignore
+[11:47:26.903][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.gitignore
+[11:47:26.903][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/.gitignore
+[11:47:26.903][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/.gitignore
+[11:47:26.921][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/.config/nvim
+[11:47:26.923][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/.config/nvim
+[11:47:26.923][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/.config/nvim
+[11:47:26.923][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/LICENCE
+[11:47:26.923][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/LICENCE
+[11:47:26.924][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/LICENCE
+[11:47:26.924][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/LICENCE
+[11:47:26.924][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc/tags
+[11:47:26.924][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc/tags
+[11:47:26.924][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc/tags
+[11:47:26.924][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lightline.vim/doc/tags
+[11:47:26.924][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/README.markdown
+[11:47:26.924][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/README.markdown
+[11:47:26.924][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/README.markdown
+[11:47:26.924][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/README.markdown
+[11:47:26.924][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/doc/tags
+[11:47:26.924][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/doc/tags
+[11:47:26.924][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/doc/tags
+[11:47:26.924][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/doc/tags
+[11:47:26.924][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/CONTRIBUTING.md
+[11:47:26.924][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/CONTRIBUTING.md
+[11:47:26.924][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/CONTRIBUTING.md
+[11:47:26.924][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/CONTRIBUTING.md
+[11:47:26.926][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/doc
+[11:47:26.926][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/doc
+[11:47:26.926][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/doc
+[11:47:26.926][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/doc
+[11:47:26.927][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/autoload
+[11:47:26.927][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/autoload
+[11:47:26.927][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/autoload
+[11:47:26.927][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/autoload
+[11:47:26.929][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/plugin
+[11:47:26.929][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/plugin
+[11:47:26.929][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/plugin
+[11:47:26.930][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/plugin
+[11:47:26.976][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/syntastic/syntax_checkers
+[11:47:26.976][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/syntax_checkers
+[11:47:26.976][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/syntastic/syntax_checkers
+[11:47:26.976][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/syntastic/syntax_checkers
+[11:47:26.986][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/ryuvi/.config/nvim
+[11:47:26.989][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/ryuvi/.config/nvim
+[11:47:27.066][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:47:28.793][info] [#0:script/workspace/workspace.lua:348]: Found 11 files at:	file:///home/ryuvi/.config/nvim
+[11:47:28.793][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim
+[11:47:28.794][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.001] sec: file:///home/ryuvi/.config/nvim
+[11:47:28.794][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim
+[11:47:28.794][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim
+[11:47:28.794][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/ryuvi/.config/nvim
+[11:47:28.795][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[11]
+[11:47:28.795][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.000] sec.
+[11:47:57.803][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/filetype_config.vim
+[11:47:57.803][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/set.vim
+[11:47:57.804][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/filetype_config.vim
+[11:47:57.804][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/filetype_config.vim
+[11:47:57.804][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/filetype_config.vim
+[11:47:57.804][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/filetype_config.vim
+[11:47:57.804][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/set.vim
+[11:47:57.804][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/set.vim
+[11:47:57.804][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/set.vim
+[11:47:57.804][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/set.vim
+[11:47:59.809][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:47:59.809][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:47:59.809][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:47:59.809][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:47:59.809][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:48:03.799][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.430 MB
+        # 00 : 6.095 MB
+        # 01 : 0.043 MB
+        # 02 : 0.077 MB
+        # 03 : 0.120 MB
+        # 04 : 0.096 MB
+    --------------- Coroutine ---------------
+        Total:     49
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      49
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:48:19.815][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:48:19.815][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:48:19.816][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:48:19.816][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:48:19.816][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:48:37.805][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/set.vim
+[11:48:37.806][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/set.vim
+[11:48:37.806][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/set.vim
+[11:48:37.806][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/set.vim
+[11:48:37.806][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/set.vim
+[11:48:44.817][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:48:44.817][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:48:44.817][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:48:44.817][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:48:44.817][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:49:16.820][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:49:16.821][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:49:16.821][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:49:16.821][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:49:16.821][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:49:23.812][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim
+[11:49:23.813][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim
+[11:49:23.813][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim
+[11:49:23.813][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim
+[11:49:23.813][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim
+[11:49:24.875][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/README.md
+[11:49:24.876][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.idx
+[11:49:24.876][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.idx
+[11:49:24.876][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.idx
+[11:49:24.876][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.idx
+[11:49:24.876][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.idx
+[11:49:24.877][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/shallow
+[11:49:24.877][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/shallow
+[11:49:24.877][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/shallow
+[11:49:24.877][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/shallow
+[11:49:24.877][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/shallow
+[11:49:24.877][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/LICENSE.md
+[11:49:24.878][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/index
+[11:49:24.878][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/index
+[11:49:24.878][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/index
+[11:49:24.878][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/index
+[11:49:24.878][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/index
+[11:49:24.879][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/colors
+[11:49:24.879][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/config
+[11:49:24.879][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/config
+[11:49:24.879][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/config
+[11:49:24.879][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/config
+[11:49:24.879][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/config
+[11:49:24.879][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/lua
+[11:49:24.880][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/assets
+[11:49:24.881][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/logs
+[11:49:24.881][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/logs
+[11:49:24.881][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/logs
+[11:49:24.881][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/logs
+[11:49:24.881][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/logs
+[11:49:24.881][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.luarc.json
+[11:49:24.881][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.pack
+[11:49:24.882][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.pack
+[11:49:24.882][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.pack
+[11:49:24.882][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.pack
+[11:49:24.882][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/objects/pack/pack-22aa2437e7e4de861d87b279918730025ff685e8.pack
+[11:49:24.882][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/heads/main
+[11:49:24.882][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/heads/main
+[11:49:24.882][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/heads/main
+[11:49:24.882][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/heads/main
+[11:49:24.882][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/heads/main
+[11:49:24.882][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.editorconfig
+[11:49:24.883][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/remotes
+[11:49:24.883][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/remotes
+[11:49:24.883][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/remotes
+[11:49:24.883][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/remotes
+[11:49:24.883][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/refs/remotes
+[11:49:24.883][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/HEAD
+[11:49:24.883][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/HEAD
+[11:49:24.883][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/HEAD
+[11:49:24.883][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/HEAD
+[11:49:24.883][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/HEAD
+[11:49:24.883][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/packed-refs
+[11:49:24.883][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/packed-refs
+[11:49:24.883][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/packed-refs
+[11:49:24.883][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/packed-refs
+[11:49:24.883][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.git/packed-refs
+[11:49:24.884][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/README.md
+[11:49:24.885][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/README.md
+[11:49:24.885][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.001] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/README.md
+[11:49:24.885][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/README.md
+[11:49:24.885][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/LICENSE.md
+[11:49:24.885][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/LICENSE.md
+[11:49:24.885][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/LICENSE.md
+[11:49:24.885][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/LICENSE.md
+[11:49:24.886][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/colors
+[11:49:24.889][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.luarc.json
+[11:49:24.889][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.luarc.json
+[11:49:24.889][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.luarc.json
+[11:49:24.889][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.luarc.json
+[11:49:24.889][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.editorconfig
+[11:49:24.889][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.editorconfig
+[11:49:24.889][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.editorconfig
+[11:49:24.889][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/.editorconfig
+[11:49:24.889][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.004] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/colors
+[11:49:24.889][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/colors
+[11:49:24.889][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/colors
+[11:49:24.890][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/assets
+[11:49:24.890][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/assets
+[11:49:24.890][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/assets
+[11:49:24.890][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/assets
+[11:49:24.890][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/lua
+[11:49:26.810][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.053] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/lua
+[11:49:26.810][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/lua
+[11:49:26.810][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/lua
+[11:49:26.910][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[16]
+[11:49:26.962][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.053] sec.
+[11:49:30.810][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[16]
+[11:49:30.873][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [0.063] sec.
+[11:49:59.832][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:49:59.832][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:49:59.833][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:49:59.833][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:49:59.833][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:50:12.829][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:50:12.829][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:50:12.829][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:50:12.829][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:50:12.829][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:51:31.843][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:51:31.844][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:51:31.844][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:51:31.844][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:51:31.844][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:51:53.842][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:51:53.843][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:51:53.843][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:51:53.843][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:51:53.843][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:53:24.858][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:53:24.859][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:53:24.859][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:53:24.859][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:53:24.859][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:54:39.868][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:54:39.869][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:54:39.869][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:54:39.869][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:54:39.869][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:57:05.886][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:57:05.886][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:57:05.886][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:57:05.886][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:57:05.886][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:57:15.887][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/init.vim
+[11:57:15.888][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/init.vim
+[11:57:15.888][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:57:15.888][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/init.vim
+[11:57:15.888][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/init.vim
+[11:57:19.879][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons
+[11:57:19.879][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons
+[11:57:19.879][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons
+[11:57:19.879][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons
+[11:57:19.879][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons
+[11:57:19.879][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim
+[11:57:19.879][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim
+[11:57:19.879][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim
+[11:57:19.880][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim
+[11:57:19.880][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim
+[11:57:20.973][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/packed-refs
+[11:57:20.973][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/packed-refs
+[11:57:20.973][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/packed-refs
+[11:57:20.973][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/packed-refs
+[11:57:20.973][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/packed-refs
+[11:57:20.973][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/Makefile
+[11:57:20.974][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.gitignore
+[11:57:20.974][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.pack
+[11:57:20.974][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.pack
+[11:57:20.974][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.pack
+[11:57:20.974][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.pack
+[11:57:20.974][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.pack
+[11:57:20.974][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/scripts
+[11:57:20.975][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/THEMES.md
+[11:57:20.975][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.github
+[11:57:20.976][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/config
+[11:57:20.976][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/config
+[11:57:20.976][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/config
+[11:57:20.976][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/config
+[11:57:20.976][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/config
+[11:57:20.976][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/CONTRIBUTING.md
+[11:57:20.976][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.stylua.toml
+[11:57:20.976][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/logs
+[11:57:20.976][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/logs
+[11:57:20.976][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/logs
+[11:57:20.976][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/logs
+[11:57:20.976][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/logs
+[11:57:20.977][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/lua
+[11:57:20.978][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/README.md
+[11:57:20.978][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc
+[11:57:20.979][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/heads/master
+[11:57:20.979][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/heads/master
+[11:57:20.979][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/heads/master
+[11:57:20.979][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/heads/master
+[11:57:20.979][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/heads/master
+[11:57:20.979][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:57:20.979][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:57:20.979][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:57:20.979][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:57:20.979][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:57:20.980][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/tests
+[11:57:20.980][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/LICENSE
+[11:57:20.981][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacov
+[11:57:20.981][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.idx
+[11:57:20.981][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.idx
+[11:57:20.981][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.idx
+[11:57:20.981][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.idx
+[11:57:20.981][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/objects/pack/pack-d35601886bab0eb3092b8a684fc5eb711119e606.idx
+[11:57:20.982][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/remotes
+[11:57:20.982][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/remotes
+[11:57:20.982][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/remotes
+[11:57:20.982][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/remotes
+[11:57:20.982][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/refs/remotes
+[11:57:20.982][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/examples
+[11:57:20.983][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/shallow
+[11:57:20.983][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/shallow
+[11:57:20.983][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/shallow
+[11:57:20.983][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/shallow
+[11:57:20.983][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/shallow
+[11:57:20.983][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:57:20.983][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:57:20.983][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:57:20.983][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:57:20.983][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:57:20.984][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacheckrc
+[11:57:20.984][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/Makefile
+[11:57:20.984][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/Makefile
+[11:57:20.984][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/Makefile
+[11:57:20.984][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/Makefile
+[11:57:20.985][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.gitignore
+[11:57:20.985][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.gitignore
+[11:57:20.985][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.gitignore
+[11:57:20.985][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.gitignore
+[11:57:20.986][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/lua/dracula/init.lua
+[11:57:21.025][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/.config/nvim
+[11:57:21.029][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/.config/nvim
+[11:57:21.029][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/.config/nvim
+[11:57:21.029][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/THEMES.md
+[11:57:21.029][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/THEMES.md
+[11:57:21.029][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/THEMES.md
+[11:57:21.029][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/THEMES.md
+[11:57:21.030][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/CONTRIBUTING.md
+[11:57:21.030][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/CONTRIBUTING.md
+[11:57:21.030][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/CONTRIBUTING.md
+[11:57:21.030][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/CONTRIBUTING.md
+[11:57:21.030][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.stylua.toml
+[11:57:21.030][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.stylua.toml
+[11:57:21.030][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.stylua.toml
+[11:57:21.030][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.stylua.toml
+[11:57:21.031][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/README.md
+[11:57:21.031][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/README.md
+[11:57:21.031][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/README.md
+[11:57:21.031][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/README.md
+[11:57:21.031][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc
+[11:57:21.031][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc
+[11:57:21.031][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc
+[11:57:21.031][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc
+[11:57:21.032][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/LICENSE
+[11:57:21.032][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/LICENSE
+[11:57:21.032][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/LICENSE
+[11:57:21.032][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/LICENSE
+[11:57:21.032][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacov
+[11:57:21.032][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacov
+[11:57:21.032][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacov
+[11:57:21.032][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacov
+[11:57:21.032][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacheckrc
+[11:57:21.032][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacheckrc
+[11:57:21.032][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacheckrc
+[11:57:21.032][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.luacheckrc
+[11:57:21.033][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/scripts
+[11:57:21.033][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/scripts
+[11:57:21.033][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/scripts
+[11:57:21.033][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/scripts
+[11:57:21.033][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/examples
+[11:57:21.056][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.023] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/examples
+[11:57:21.056][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/examples
+[11:57:21.056][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/examples
+[11:57:21.056][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.github
+[11:57:21.056][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.github
+[11:57:21.056][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.github
+[11:57:21.056][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.github
+[11:57:21.057][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/tests
+[11:57:21.161][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.105] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/tests
+[11:57:21.161][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/tests
+[11:57:21.161][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/tests
+[11:57:21.171][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/lua
+[11:57:21.491][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/ryuvi/.config/nvim
+[11:57:21.492][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/ryuvi/.config/nvim
+[11:57:21.670][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:57:21.672][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.504] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/lua
+[11:57:21.672][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/lua
+[11:57:21.672][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/lua
+[11:57:21.672][info] [#0:script/workspace/workspace.lua:348]: Found 123 files at:	file:///home/ryuvi/.config/nvim
+[11:57:21.672][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim
+[11:57:21.706][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.035] sec: file:///home/ryuvi/.config/nvim
+[11:57:21.706][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim
+[11:57:21.706][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim
+[11:57:21.706][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/ryuvi/.config/nvim
+[11:57:21.737][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[123]
+[11:57:23.668][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [1.825] sec.
+[11:58:04.883][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 33.383 MB
+        # 00 : 33.036 MB
+        # 01 : 0.043 MB
+        # 02 : 0.077 MB
+        # 03 : 0.106 MB
+        # 04 : 0.121 MB
+    --------------- Coroutine ---------------
+        Total:     11
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      11
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:58:10.299][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.pack
+[11:58:10.300][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.pack
+[11:58:10.300][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.pack
+[11:58:10.300][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.pack
+[11:58:10.300][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.pack
+[11:58:10.324][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-merge-commit.sample
+[11:58:10.324][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-merge-commit.sample
+[11:58:10.324][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-merge-commit.sample
+[11:58:10.324][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-merge-commit.sample
+[11:58:10.324][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-merge-commit.sample
+[11:58:10.325][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:58:10.326][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:58:10.326][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:58:10.326][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:58:10.326][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/packed-refs
+[11:58:10.328][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/heads
+[11:58:10.328][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/heads
+[11:58:10.328][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/heads
+[11:58:10.328][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/heads
+[11:58:10.328][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/heads
+[11:58:10.329][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/heads/master
+[11:58:10.329][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/heads/master
+[11:58:10.329][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/heads/master
+[11:58:10.329][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/heads/master
+[11:58:10.329][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/heads/master
+[11:58:10.329][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info
+[11:58:10.329][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info
+[11:58:10.329][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info
+[11:58:10.329][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info
+[11:58:10.329][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info
+[11:58:10.331][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack
+[11:58:10.331][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack
+[11:58:10.331][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack
+[11:58:10.331][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack
+[11:58:10.331][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/pack
+[11:58:10.331][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/shallow
+[11:58:10.331][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/shallow
+[11:58:10.331][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/shallow
+[11:58:10.331][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/shallow
+[11:58:10.331][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/shallow
+[11:58:10.332][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc/tags
+[11:58:10.332][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/config
+[11:58:10.332][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/config
+[11:58:10.332][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/config
+[11:58:10.332][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/config
+[11:58:10.332][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/config
+[11:58:10.332][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-applypatch.sample
+[11:58:10.332][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-applypatch.sample
+[11:58:10.332][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-applypatch.sample
+[11:58:10.332][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-applypatch.sample
+[11:58:10.332][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-applypatch.sample
+[11:58:10.333][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/commit-msg.sample
+[11:58:10.333][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/commit-msg.sample
+[11:58:10.333][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/commit-msg.sample
+[11:58:10.333][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/commit-msg.sample
+[11:58:10.333][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/commit-msg.sample
+[11:58:10.334][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/post-update.sample
+[11:58:10.334][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/post-update.sample
+[11:58:10.334][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/post-update.sample
+[11:58:10.334][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/post-update.sample
+[11:58:10.334][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/post-update.sample
+[11:58:10.335][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:58:10.335][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:58:10.335][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:58:10.335][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:58:10.335][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/index
+[11:58:10.339][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs
+[11:58:10.340][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs
+[11:58:10.340][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs
+[11:58:10.340][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs
+[11:58:10.340][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs
+[11:58:10.343][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/README.md
+[11:58:10.344][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-commit.sample
+[11:58:10.344][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-commit.sample
+[11:58:10.344][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-commit.sample
+[11:58:10.345][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-commit.sample
+[11:58:10.345][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-commit.sample
+[11:58:10.346][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/prepare-commit-msg.sample
+[11:58:10.346][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/prepare-commit-msg.sample
+[11:58:10.346][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/prepare-commit-msg.sample
+[11:58:10.346][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/prepare-commit-msg.sample
+[11:58:10.346][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/prepare-commit-msg.sample
+[11:58:10.347][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/update.sample
+[11:58:10.347][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/update.sample
+[11:58:10.347][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/update.sample
+[11:58:10.347][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/update.sample
+[11:58:10.347][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/update.sample
+[11:58:10.347][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin/HEAD
+[11:58:10.347][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin/HEAD
+[11:58:10.347][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin/HEAD
+[11:58:10.347][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin/HEAD
+[11:58:10.347][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin/HEAD
+[11:58:10.348][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/push-to-checkout.sample
+[11:58:10.348][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/push-to-checkout.sample
+[11:58:10.348][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/push-to-checkout.sample
+[11:58:10.348][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/push-to-checkout.sample
+[11:58:10.348][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/push-to-checkout.sample
+[11:58:10.348][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:58:10.348][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:58:10.348][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:58:10.348][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:58:10.348][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes
+[11:58:10.350][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/tags
+[11:58:10.350][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/tags
+[11:58:10.350][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/tags
+[11:58:10.350][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/tags
+[11:58:10.350][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/tags
+[11:58:10.350][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/index
+[11:58:10.350][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/index
+[11:58:10.350][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/index
+[11:58:10.350][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/index
+[11:58:10.350][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/index
+[11:58:10.351][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/fsmonitor-watchman.sample
+[11:58:10.351][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/fsmonitor-watchman.sample
+[11:58:10.351][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/fsmonitor-watchman.sample
+[11:58:10.351][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/fsmonitor-watchman.sample
+[11:58:10.351][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/fsmonitor-watchman.sample
+[11:58:10.351][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin
+[11:58:10.351][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin
+[11:58:10.351][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin
+[11:58:10.351][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin
+[11:58:10.351][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/remotes/origin
+[11:58:10.351][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/lua
+[11:58:10.352][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin/HEAD
+[11:58:10.352][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin/HEAD
+[11:58:10.352][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin/HEAD
+[11:58:10.352][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin/HEAD
+[11:58:10.352][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin/HEAD
+[11:58:10.353][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:58:10.353][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:58:10.353][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:58:10.353][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:58:10.353][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/index
+[11:58:10.354][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks
+[11:58:10.354][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks
+[11:58:10.354][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks
+[11:58:10.354][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks
+[11:58:10.354][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks
+[11:58:10.355][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/info
+[11:58:10.355][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/info
+[11:58:10.355][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/info
+[11:58:10.355][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/info
+[11:58:10.355][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects/info
+[11:58:10.360][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs
+[11:58:10.360][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs
+[11:58:10.360][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs
+[11:58:10.361][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs
+[11:58:10.361][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs
+[11:58:10.362][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-rebase.sample
+[11:58:10.362][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-rebase.sample
+[11:58:10.362][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-rebase.sample
+[11:58:10.362][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-rebase.sample
+[11:58:10.362][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-rebase.sample
+[11:58:10.364][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-push.sample
+[11:58:10.364][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-push.sample
+[11:58:10.364][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-push.sample
+[11:58:10.364][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-push.sample
+[11:58:10.364][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-push.sample
+[11:58:10.364][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:58:10.364][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:58:10.364][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:58:10.364][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:58:10.364][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/config
+[11:58:10.365][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:58:10.365][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:58:10.365][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:58:10.365][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:58:10.365][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/shallow
+[11:58:10.367][info] [#0:script/provider/diagnostic.lua:160]: clearDiagnostics	file:///home/ryuvi/.config/nvim/plugins/dracula.nvim/lua/dracula/init.lua
+[11:58:10.487][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/.config/nvim
+[11:58:10.491][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/.config/nvim
+[11:58:10.491][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/.config/nvim
+[11:58:10.576][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/.config/nvim
+[11:58:10.578][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/.config/nvim
+[11:58:10.579][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/.config/nvim
+[11:58:10.586][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc/tags
+[11:58:10.586][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc/tags
+[11:58:10.586][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc/tags
+[11:58:10.586][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/doc/tags
+[11:58:10.587][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/README.md
+[11:58:10.587][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/README.md
+[11:58:10.587][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/README.md
+[11:58:10.587][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/README.md
+[11:58:10.587][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/lua
+[11:58:10.599][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/ryuvi/.config/nvim
+[11:58:10.601][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/ryuvi/.config/nvim
+[11:58:11.534][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:58:11.537][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.215] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/lua
+[11:58:11.537][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/lua
+[11:58:11.537][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/lua
+[11:58:11.537][info] [#0:script/workspace/workspace.lua:348]: Found 124 files at:	file:///home/ryuvi/.config/nvim
+[11:58:11.537][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim
+[11:58:11.601][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.063] sec: file:///home/ryuvi/.config/nvim
+[11:58:11.602][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim
+[11:58:11.602][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim
+[11:58:11.603][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/ryuvi/.config/nvim
+[11:58:11.603][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes
+[11:58:11.603][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes
+[11:58:11.603][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes
+[11:58:11.603][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes
+[11:58:11.603][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes
+[11:58:11.603][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/applypatch-msg.sample
+[11:58:11.603][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/applypatch-msg.sample
+[11:58:11.603][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/applypatch-msg.sample
+[11:58:11.603][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/applypatch-msg.sample
+[11:58:11.603][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/applypatch-msg.sample
+[11:58:11.603][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/packed-refs
+[11:58:11.603][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/packed-refs
+[11:58:11.603][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/packed-refs
+[11:58:11.603][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/packed-refs
+[11:58:11.603][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/packed-refs
+[11:58:11.603][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git
+[11:58:11.603][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git
+[11:58:11.603][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git
+[11:58:11.603][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git
+[11:58:11.603][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git
+[11:58:11.604][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/remotes
+[11:58:11.604][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/remotes
+[11:58:11.604][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/remotes
+[11:58:11.604][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/remotes
+[11:58:11.604][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/refs/remotes
+[11:58:11.604][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.idx
+[11:58:11.604][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.idx
+[11:58:11.604][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.idx
+[11:58:11.604][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.idx
+[11:58:11.604][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/objects/pack/pack-93fb0dbf6eb718af32acb887f63c1d37b0ce64ff.idx
+[11:58:11.604][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin
+[11:58:11.604][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin
+[11:58:11.604][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin
+[11:58:11.604][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin
+[11:58:11.604][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/refs/remotes/origin
+[11:58:11.604][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/plugin
+[11:58:11.605][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info/exclude
+[11:58:11.605][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info/exclude
+[11:58:11.605][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info/exclude
+[11:58:11.605][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info/exclude
+[11:58:11.605][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/info/exclude
+[11:58:11.605][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/branches
+[11:58:11.605][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/branches
+[11:58:11.605][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/branches
+[11:58:11.605][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/branches
+[11:58:11.605][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/branches
+[11:58:11.605][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects
+[11:58:11.605][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects
+[11:58:11.605][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects
+[11:58:11.605][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects
+[11:58:11.605][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/objects
+[11:58:11.605][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/scripts
+[11:58:11.606][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/logs
+[11:58:11.606][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/logs
+[11:58:11.606][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/logs
+[11:58:11.606][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/logs
+[11:58:11.606][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/logs
+[11:58:11.606][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:58:11.606][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:58:11.606][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:58:11.606][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:58:11.606][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs
+[11:58:11.606][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-receive.sample
+[11:58:11.606][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-receive.sample
+[11:58:11.606][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-receive.sample
+[11:58:11.606][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-receive.sample
+[11:58:11.606][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/hooks/pre-receive.sample
+[11:58:11.606][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:58:11.606][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:58:11.606][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:58:11.606][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:58:11.606][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/HEAD
+[11:58:11.606][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/logs/HEAD
+[11:58:11.607][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/lualine.nvim/.git/HEAD
+[11:58:11.607][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:58:11.607][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads
+[11:58:11.607][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads
+[11:58:11.607][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads
+[11:58:11.607][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads
+[11:58:11.607][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/refs/heads
+[11:58:11.607][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:58:11.608][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:58:11.608][info] [#0:script/workspace/workspace.lua:265]: Scan files at:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/description
+[11:58:11.608][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/description
+[11:58:11.608][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/description
+[11:58:11.608][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/.git/description
+[11:58:11.608][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/.git/description
+[11:58:11.610][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/plugin
+[11:58:11.610][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/plugin
+[11:58:11.610][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/plugin
+[11:58:11.610][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/plugin
+[11:58:11.610][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/scripts
+[11:58:11.610][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/scripts
+[11:58:11.610][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/scripts
+[11:58:11.610][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/nvim-web-devicons/scripts
+[11:58:11.610][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:58:11.610][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:58:11.610][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:58:11.610][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/README.md
+[11:58:11.610][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:58:11.610][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:58:11.610][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:58:11.611][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula/colors
+[11:58:11.613][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:58:11.613][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:58:11.613][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:58:11.613][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/.config/nvim/plugins/dracula
+[11:58:11.614][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[124]
+[11:58:13.513][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [1.885] sec.
+[11:58:13.526][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/.config/nvim], files count:[124]
+[11:58:14.760][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/.config/nvim] finished, takes [1.233] sec.
+[11:59:21.750][warn] [#0:script/pub/report.lua:25]: Load proto error:	Disconnected!

@@ -3,14 +3,16 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH=$PATH:$HOME/.emacs.d/bin
 export PATH=$PATH:$HOME/Bin
-export PATH=$PATH:$HOME/.config/composer/vendor/bin
+export PATH=$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin
+#export PATH=$PATH:$HOME/.config/composer/vendor/bin
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -129,4 +131,9 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 
 # ALIASES
-. aliases
+. aliases.sh
+source /usr/share/nvm/init-nvm.sh
+export PATH=$PATH:/home/ryuvi/Documents/corona/build
+colorscript --random
+ls
+export PATH=$PATH:$HOME/Documents/vcpkg

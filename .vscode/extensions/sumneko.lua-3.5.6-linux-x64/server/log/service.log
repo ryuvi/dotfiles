@@ -1,0 +1,31 @@
+[11:38:01.852][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:65]: Lua Lsp startup, root: 	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server
+[11:38:01.852][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:66]: ROOT:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server
+[11:38:01.852][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:67]: LOGPATH:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/log
+[11:38:01.852][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:68]: METAPATH:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta
+[11:38:01.876][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:69]: VERSION:	3.5.6
+[11:38:02.682][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.461 MB
+        # 00 : 1.461 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:38:02.711][info] [#0:script/language.lua:137]: VSC language: en-us
+[11:38:02.711][info] [#0:script/language.lua:138]: LS  language: en-us
+[11:38:02.711][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/ryuvi/.config/nvim
+[11:38:02.711][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/log/file_home_ryuvi_.config_nvim.log

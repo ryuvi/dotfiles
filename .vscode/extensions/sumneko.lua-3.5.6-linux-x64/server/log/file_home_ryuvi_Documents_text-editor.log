@@ -1,0 +1,320 @@
+[11:14:25.913][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:65]: Lua Lsp startup, root: 	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server
+[11:14:25.954][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:66]: ROOT:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server
+[11:14:25.954][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:67]: LOGPATH:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/log
+[11:14:25.954][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:68]: METAPATH:	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta
+[11:14:25.957][info] [#0:/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/main.lua:69]: VERSION:	3.5.6
+[11:14:26.428][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.461 MB
+        # 00 : 1.461 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:14:26.474][info] [#0:script/language.lua:137]: VSC language: en-us
+[11:14:26.474][info] [#0:script/language.lua:138]: LS  language: en-us
+[11:14:26.474][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/ryuvi/Documents/text-editor
+[11:14:26.475][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/log/file_home_ryuvi_Documents_text-editor.log
+[11:14:26.475][info] [#0:script/workspace/workspace.lua:51]: Workspace create: 	file:///home/ryuvi/Documents/text-editor
+[11:14:26.627][info] [#0:script/provider/provider.lua:41]: Load config from client	file:///home/ryuvi/Documents/text-editor
+[11:14:26.631][info] [#0:script/provider/provider.lua:42]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      groupFileStatus = {},
+      groupSeverity = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      neededFileStatus = {},
+      severity = {},
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = false,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      builtin = {},
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = true
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    typeFormat = {
+      config = {}
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  },
+  ["editor.acceptSuggestionOnEnter"] = "on",
+  ["editor.semanticHighlighting.enabled"] = "configuredByTheme",
+  ["files.associations"] = {},
+  ["files.exclude"] = {
+    ["**/.DS_Store"] = true,
+    ["**/.git"] = true,
+    ["**/.hg"] = true,
+    ["**/.svn"] = true,
+    ["**/CVS"] = true,
+    ["**/Thumbs.db"] = true
+  }
+}
+[11:14:26.655][info] [#0:script/provider/provider.lua:56]: Load config from client	fallback
+[11:14:26.660][info] [#0:script/provider/provider.lua:57]: {
+  Lua = {
+    completion = {
+      autoRequire = true,
+      callSnippet = "Disable",
+      displayContext = 0,
+      enable = true,
+      keywordSnippet = "Replace",
+      postfix = "@",
+      requireSeparator = ".",
+      showParams = true,
+      showWord = "Fallback",
+      workspaceWord = true
+    },
+    diagnostics = {
+      disable = {},
+      disableScheme = { "git" },
+      enable = true,
+      globals = {},
+      groupFileStatus = {},
+      groupSeverity = {},
+      ignoredFiles = "Opened",
+      libraryFiles = "Opened",
+      neededFileStatus = {},
+      severity = {},
+      unusedLocalExclude = {},
+      workspaceDelay = 3000,
+      workspaceRate = 100
+    },
+    format = {
+      defaultConfig = {},
+      enable = true
+    },
+    hint = {
+      arrayIndex = "Auto",
+      await = true,
+      enable = false,
+      paramName = "All",
+      paramType = true,
+      semicolon = "SameLine",
+      setType = false
+    },
+    hover = {
+      enable = true,
+      enumsLimit = 5,
+      expandAlias = true,
+      previewFields = 50,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    misc = {
+      parameters = {}
+    },
+    runtime = {
+      builtin = {},
+      fileEncoding = "utf8",
+      meta = "${version} ${language} ${encoding}",
+      nonstandardSymbol = {},
+      path = { "?.lua", "?/init.lua" },
+      pathStrict = false,
+      plugin = "",
+      pluginArgs = {},
+      special = {},
+      unicodeName = false,
+      version = "Lua 5.4"
+    },
+    semantic = {
+      annotation = true,
+      enable = true,
+      keyword = false,
+      variable = true
+    },
+    signatureHelp = {
+      enable = true
+    },
+    spell = {
+      dict = {}
+    },
+    telemetry = {
+      enable = true
+    },
+    type = {
+      castNumberToInteger = true,
+      weakNilCheck = false,
+      weakUnionCheck = false
+    },
+    typeFormat = {
+      config = {}
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      checkThirdParty = true,
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      library = {},
+      maxPreload = 5000,
+      preloadFileSize = 500,
+      supportScheme = { "file", "untitled", "git" },
+      useGitIgnore = true,
+      userThirdParty = {}
+    }
+  },
+  ["editor.acceptSuggestionOnEnter"] = "on",
+  ["editor.semanticHighlighting.enabled"] = "configuredByTheme",
+  ["files.associations"] = {},
+  ["files.exclude"] = {
+    ["**/.DS_Store"] = true,
+    ["**/.git"] = true,
+    ["**/.hg"] = true,
+    ["**/.svn"] = true,
+    ["**/CVS"] = true,
+    ["**/Thumbs.db"] = true
+  }
+}
+[11:14:26.662][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[11:14:26.763][info] [#0:script/library.lua:207]: Init builtin library at:	file:///home/ryuvi/Documents/text-editor
+[11:14:26.910][info] [#0:script/plugin.lua:86]: plugin path:	/home/ryuvi/Documents/text-editor
+[11:14:26.910][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/ryuvi/Documents/text-editor
+[11:14:26.910][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[11:14:26.994][info] [#0:script/workspace/workspace.lua:305]: Preload start:	file:///home/ryuvi/Documents/text-editor
+[11:14:26.997][info] [#0:script/workspace/workspace.lua:311]: Scan files at:	file:///home/ryuvi/Documents/text-editor
+[11:14:26.998][info] [#0:script/workspace/workspace.lua:305]: Preload start:	<fallback>
+[11:14:27.007][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:14:27.038][info] [#0:script/workspace/workspace.lua:328]: Scan library at:	file:///home/ryuvi/.vscode/extensions/sumneko.lua-3.5.6-linux-x64/server/meta/Lua%205.4%20en-us%20utf8
+[11:14:28.471][info] [#0:script/workspace/workspace.lua:348]: Found 11 files at:	<fallback>
+[11:14:28.471][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	<fallback>
+[11:14:28.471][info] [#0:script/workspace/workspace.lua:348]: Found 12 files at:	file:///home/ryuvi/Documents/text-editor
+[11:14:28.471][info] [#0:script/workspace/loading.lua:153]: Load files from disk:	file:///home/ryuvi/Documents/text-editor
+[11:14:30.471][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.133] sec: <fallback>
+[11:14:30.472][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: <fallback>
+[11:14:30.472][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	<fallback>
+[11:14:30.472][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	<fallback>
+[11:14:30.504][info] [#0:script/workspace/loading.lua:165]: Loaded files takes [0.141] sec: file:///home/ryuvi/Documents/text-editor
+[11:14:30.504][info] [#0:script/workspace/loading.lua:174]: Compile files takes [0.000] sec: file:///home/ryuvi/Documents/text-editor
+[11:14:30.504][info] [#0:script/workspace/loading.lua:175]: Loaded finish:	file:///home/ryuvi/Documents/text-editor
+[11:14:30.504][info] [#0:script/workspace/workspace.lua:350]: Preload finish at:	file:///home/ryuvi/Documents/text-editor
+[11:14:30.553][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[12]
+[11:14:30.553][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///home/ryuvi/Documents/text-editor], files count:[12]
+[11:14:30.583][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.014] sec.
+[11:14:30.583][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///home/ryuvi/Documents/text-editor] finished, takes [0.014] sec.
+[11:24:26.599][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 5.866 MB
+        # 00 : 5.507 MB
+        # 01 : 0.043 MB
+        # 02 : 0.043 MB
+        # 03 : 0.182 MB
+        # 04 : 0.091 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:31:09.388][info] [#0:script/provider/provider.lua:167]: Server shutdown.
+[11:31:09.388][warn] [#0:script/pub/report.lua:25]: Load proto error:	Disconnected!

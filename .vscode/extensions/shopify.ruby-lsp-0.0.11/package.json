@@ -1,0 +1,251 @@
+{
+	"name": "ruby-lsp",
+	"displayName": "Ruby LSP",
+	"description": "VS Code plugin for connecting with the Ruby LSP",
+	"version": "0.0.11",
+	"publisher": "Shopify",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Shopify/vscode-ruby-lsp.git"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"activationEvents": [
+		"onLanguage:ruby",
+		"workspaceContains:Gemfile.lock"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "ruby-lsp.start",
+				"title": "Ruby LSP: Start"
+			},
+			{
+				"command": "ruby-lsp.restart",
+				"title": "Ruby LSP: Restart"
+			},
+			{
+				"command": "ruby-lsp.stop",
+				"title": "Ruby LSP: Stop"
+			}
+		],
+		"configuration": {
+			"title": "Ruby LSP",
+			"properties": {
+				"rubyLsp.enabledFeatures": {
+					"description": "List of enabled LSP features",
+					"type": "object",
+					"properties": {
+						"codeActions": {
+							"description": "Enable code actions, like RuboCop quick fixes",
+							"type": "boolean",
+							"default": true
+						},
+						"diagnostics": {
+							"description": "Enable diagnostics, like RuboCop violations",
+							"type": "boolean",
+							"default": true
+						},
+						"documentHighlights": {
+							"description": "Enable document highlight, which highlights the occurrences of the entity at cursor position",
+							"type": "boolean",
+							"default": true
+						},
+						"documentLink": {
+							"description": "Enable document link, which generates clickable link to 'PATH' based on '# source://PATH' comments",
+							"type": "boolean",
+							"default": true
+						},
+						"documentSymbols": {
+							"description": "Enable document symbols, which populates the file outline and breadcrumbs",
+							"type": "boolean",
+							"default": true
+						},
+						"foldingRanges": {
+							"description": "Enable folding ranges, which populates the places where code can be folded",
+							"type": "boolean",
+							"default": true
+						},
+						"formatting": {
+							"description": "Enable formatting",
+							"type": "boolean",
+							"default": true
+						},
+						"hover": {
+							"description": "Enable hover, which displays a widget with extra information when hovering over certain code",
+							"type": "boolean",
+							"default": true
+						},
+						"inlayHint": {
+							"description": "Enable inlay hints",
+							"type": "boolean",
+							"default": true
+						},
+						"onTypeFormatting": {
+							"description": "Enable on type formatting",
+							"type": "boolean",
+							"default": true
+						},
+						"selectionRanges": {
+							"description": "Enable selection ranges, which selects code based on the position of the cursor(s)",
+							"type": "boolean",
+							"default": true
+						},
+						"semanticHighlighting": {
+							"description": "Enable semantic highlighting, which highlights code based on Ruby's understanding of it",
+							"type": "boolean",
+							"default": true
+						}
+					},
+					"default": {
+						"codeActions": true,
+						"diagnostics": true,
+						"documentHighlights": true,
+						"documentLink": true,
+						"documentSymbols": true,
+						"foldingRanges": true,
+						"formatting": true,
+						"hover": true,
+						"inlayHint": true,
+						"onTypeFormatting": true,
+						"selectionRanges": true,
+						"semanticHighlighting": true
+					}
+				},
+				"rubyLsp.rubyVersionManager": {
+					"description": "The Ruby version manager to use",
+					"type": "string",
+					"enum": [
+						"shadowenv",
+						"chruby",
+						"asdf",
+						"rbenv",
+						"rvm"
+					],
+					"default": "shadowenv"
+				},
+				"rubyLsp.yjit": {
+					"description": "Use YJIT to speed up the Ruby LSP server",
+					"type": "boolean",
+					"default": true
+				}
+			}
+		},
+		"snippets": [
+			{
+				"language": "ruby",
+				"path": "./snippets.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "ruby",
+				"scopeName": "source.ruby",
+				"path": "./grammars/ruby.cson.json"
+			},
+			{
+				"language": "erb",
+				"scopeName": "text.html.erb",
+				"path": "./grammars/erb.cson.json",
+				"embeddedLanguages": {
+					"source.css": "css",
+					"source.js": "javascript",
+					"source.ruby": "ruby"
+				}
+			}
+		],
+		"languages": [
+			{
+				"id": "ruby",
+				"aliases": [
+					"Ruby",
+					"ruby"
+				],
+				"firstLine": "^#!\\s*/.*(?:ruby|rbx|rake)\\b",
+				"extensions": [
+					".gemspec",
+					".irbrc",
+					".jbuilder",
+					".pryrc",
+					".rake",
+					".rb",
+					".ru",
+					".ruby"
+				],
+				"filenames": [
+					"brewfile",
+					"capfile",
+					"rakefile",
+					"gemfile"
+				]
+			},
+			{
+				"id": "erb",
+				"extensions": [
+					".erb",
+					".rhtml",
+					".rhtm"
+				],
+				"configuration": "./languages/erb.json"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run esbuild-base --minify",
+		"package": "vsce package --out vscode-ruby-lsp.vsix",
+		"esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/extension.js --external:vscode --format=cjs --platform=node",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile",
+		"format": "eslint '**/*.ts' --fix && prettier '**/*.{json,md,yaml,yml}' --write",
+		"lint": "eslint '**/*.ts' && prettier '**/*.{json,md,yaml,yml}' --check",
+		"test": "node ./out/test/runTest.js"
+	},
+	"resolutions": {
+		"node-fetch": ">= 2.6.7",
+		"cross-fetch": ">= 3.1.5",
+		"ws": ">= 7.4.6"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.19.6",
+		"@shopify/eslint-plugin": "^42.0.1",
+		"@shopify/prettier-config": "^1.1.2",
+		"@types/glob": "^8.0.0",
+		"@types/mocha": "^10.0.0",
+		"@types/node": "18.x",
+		"@types/vscode": "^1.63.0",
+		"@typescript-eslint/eslint-plugin": "^5.41.0",
+		"@typescript-eslint/parser": "^5.41.0",
+		"@vscode/test-electron": "^2.2.0",
+		"esbuild": "^0.15.12",
+		"eslint": "^8.26.0",
+		"eslint-import-resolver-typescript": "^3.5.2",
+		"glob": "^8.0.3",
+		"mocha": "^10.1.0",
+		"prettier": "^2.7.1",
+		"typescript": "^4.8.4",
+		"vsce": "^2.13.0"
+	},
+	"dependencies": {
+		"vscode-languageclient": "^8.0.2"
+	},
+	"__metadata": {
+		"id": "ef656a13-3703-477b-9f36-672a0c949b96",
+		"publisherId": "1166cb6d-7867-45ca-9a40-f535976a40be",
+		"publisherDisplayName": "Shopify",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1667139858077,
+		"preRelease": false
+	}
+}
